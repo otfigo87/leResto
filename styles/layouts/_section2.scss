@@ -1,0 +1,84 @@
+.section2 {
+    color: white ;
+    padding: 80px;
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        height:620px;
+        width: 100% ;
+        background: url(../../assets/img/bg-menu-01.jpg);
+        left: 0;
+        bottom: 0;
+    }
+    h2 {
+        color: goldenrod;
+        font-size: 2rem ;
+        font-family: $font1;
+        font-weight: 500;
+        padding: 30px 0 30px;
+    }
+    ul {
+        @include alignChildren(space-around);
+        width: 50%;
+        margin: 30px auto;
+        min-width: 500px;
+
+        li {
+            border-bottom: 1px solid grey;
+            padding-bottom: 6px;
+        }
+    }
+    .meals {
+        background: white;
+        color: black;
+        width: 85%;
+        max-width: 880px;
+        margin: 0 auto;
+        border-top: 4px solid maroon;
+        padding: 15px 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        z-index: 10;
+        position: relative;
+
+        .meal {
+            display: grid;
+            grid-template-columns: 25% 50% 15%;
+            border-bottom: 1px dashed grey;
+            padding: 30px 0;
+            margin:0 20px;
+
+            img {
+                border-radius: 50px;
+                object-fit: cover;
+                width: 100%;
+                align-self: center;
+            }
+            .meal-text {
+                text-align: left;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin: 0 10px;
+                height: 100%;
+
+                h3 {
+                    text-transform: uppercase;
+                    color: black;
+                    font-size: 0.8rem;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+            }
+            >p {
+                color: goldenrod;
+                font-weight: 600;
+                display: grid;
+                align-items: center;
+                height: 100%;
+            }
+        }
+    }
+}
