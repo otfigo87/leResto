@@ -89,4 +89,54 @@ header .header-text div h1 {
   letter-spacing: 10px;
   font-weight: 700;
   margin-top: -28px;
+  font-family: Poppins, serif;
+}
+header .header-text div img {
+  height: 27px;
+  margin: 32px 0;
+}
+header .header-text div h6 {
+  font-size: 0.75rem;
+  letter-spacing: 6px;
+  font-weight: 200;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: white;
+}
+.section1 .intro-text {
+  margin: 15px;
+  padding: 30px 15px;
+  border: 1px dashed goldenrod;
+}
+.section1 .intro-text h2 {
+  color: goldenrod;
+  font-family: Allura, cursive;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.section1 .intro-text h3 {
+  margin-top: -12px;
+  font-family: Poppins, serif;
+}
+.section1 .intro-text img {
+  margin: 26px;
+}
+.section1 .intro-text img:nth-of-type(2) {
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+.section1 .intro-text h4 {
+  font-family: Poppins, serif;
+  font-weight: 100;
+}
+.section1 .intro-text h5 {
+  color: grey;
+  font-size: 0.7rem;
+}
+.section1 .intro-pic {
+  background: url(../../assets/img/store-01.jpg) center/cover;
 }/*# sourceMappingURL=index.css.map */
