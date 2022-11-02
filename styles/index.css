@@ -1,1 +1,41 @@
-/*# sourceMappingURL=index.css.map */
+@font-face {
+  font-family: "Allura";
+  src: url(../assets/fonts/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../assets/fonts/Roboto-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  text-align: center;
+  font-family: Roboto, serif;
+  background: black;
+}
+
+header {
+  background: url(../../assets/img/bg-slider-06.jpg) center/cover;
+  padding: 0 50px;
+  color: white;
+}
+header nav {
+  height: 12vh;
+  display: grid;
+  grid-template-columns: 10% 82% 8%;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}/*# sourceMappingURL=index.css.map */

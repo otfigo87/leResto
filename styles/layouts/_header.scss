@@ -1,0 +1,14 @@
+header {
+    background: url(../../assets/img/bg-slider-06.jpg) center/cover;
+    padding: 0 50px;
+    color: white;
+
+    nav {
+        height: 12vh;
+        display: grid;
+        grid-template-columns: 10% 82% 8%;
+        align-items: center;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+}

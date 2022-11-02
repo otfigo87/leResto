@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Allura";
+    src: url(../assets/fonts/Allura-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../assets/fonts/Roboto-Light.ttf);
+}
+
+$font1: Allura, cursive;
+$dont2: Poppins, serif;
+$font3: Roboto, serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+body {
+    text-align: center;
+    font-family: $font3;
+    background: black;
+}
+
+@mixin childCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin alignChildren($space) {
+    display: flex;
+    justify-content: $space;
+    align-items: center;
+}
