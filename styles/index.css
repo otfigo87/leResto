@@ -222,4 +222,103 @@ header .header-text div h6 {
   display: grid;
   align-items: center;
   height: 100%;
+}
+
+.section3 {
+  padding: 100px 15px 65px;
+  color: white;
+}
+.section3 .form-content {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background: white;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.section3 .form-content .hours {
+  padding: 24px;
+  background: black;
+}
+.section3 .form-content .hours .hours-content {
+  border: 1px dashed grey;
+  padding: 20px 0;
+}
+.section3 .form-content .hours .hours-content h3 {
+  font-family: Allura, cursive;
+  font-style: 2.5rem;
+  font-weight: 100;
+  color: goldenrod;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+.section3 .form-content .hours .hours-content h4 {
+  font-family: Poppins, serif;
+  margin-top: -16px;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+}
+.section3 .form-content .hours .hours-content img {
+  margin-top: 25px;
+}
+.section3 .form-content .hours .hours-content h5 {
+  text-transform: uppercase;
+  color: goldenrod;
+  font-family: Poppins, serif;
+  font-weight: 100;
+  font-size: 1.1rem;
+  margin: 38px 0 12px;
+}
+.section3 .form-content .hours .hours-content p {
+  font-size: 0.85rem;
+}
+.section3 .form-content .form-infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.section3 .form-content .form-infos h2 {
+  font-family: Allura, cursive;
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: goldenrod;
+  margin-bottom: 10px;
+}
+.section3 .form-content .form-infos h3 {
+  color: black;
+  margin-top: -18px;
+  font-family: Poppins, serif;
+  font-size: 1.8rem;
+}
+.section3 .form-content .form-infos img {
+  height: 25px;
+  margin: 25px;
+}
+.section3 .form-content .form-infos .form-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 30px;
+}
+.section3 .form-content .form-infos .form-inputs > * {
+  padding: 10px 0;
+  margin: 10px;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.section3 .form-content .form-infos button {
+  border: none;
+  border-radius: 50px;
+  background: black;
+  color: white;
+  padding: 16px 34px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.section3 .form-content .form-infos button:hover {
+  transform: translateX(3px);
+  box-shadow: 0 2px 4px rgb(51, 50, 50);
 }/*# sourceMappingURL=index.css.map */
