@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Allura";
   src: url(../assets/fonts/Allura-Regular.ttf);
@@ -436,4 +437,58 @@ header .header-text div h6 {
 }
 .section4 .events-container .event-grid .event-3 .address h5 {
   padding: 45px 0;
+}
+
+.section5 {
+  padding: 70px 0 230px;
+  position: relative;
+}
+.section5:after {
+  content: "";
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  background: url(../../assets/img/gmap.jpg) center/cover;
+  left: 0;
+  bottom: 0;
+}
+.section5 .quote-container {
+  background: white;
+  z-index: 3;
+  position: relative;
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 65px 70px;
+  box-shadow: 0 0 3px #333;
+}
+.section5 .quote-container:before {
+  content: " ";
+  position: absolute;
+  background: url(../../assets/img/avatar-02.jpg) center/cover;
+  height: 60px;
+  width: 60px;
+  top: -15%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+.section5 .quote-container .text-container {
+  line-height: 30px;
+}
+.section5 .quote-container .text-container:before {
+  content: "❝";
+  font-size: 1.3rem;
+}
+.section5 .quote-container .text-container:after {
+  content: "❞";
+  font-size: 1.3rem;
+}
+.section5 .quote-container h2 {
+  margin: 30px 0 15px;
+  font-family: Roboto, serif;
+  font-weight: 100;
+}
+.section5 .quote-container p {
+  color: goldenrod;
 }/*# sourceMappingURL=index.css.map */
