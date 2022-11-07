@@ -491,4 +491,69 @@ header .header-text div h6 {
 }
 .section5 .quote-container p {
   color: goldenrod;
+}
+
+footer {
+  background: url(../../assets/img/bg-footer.jpg) center/cover;
+  text-align: left;
+  padding: 65px 32px;
+  color: white;
+}
+footer .footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+footer .footer-content .left-part {
+  padding-right: 30px;
+  line-height: 30px;
+}
+footer .footer-content .left-part h2 {
+  font-family: Allura, cursive;
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: goldenrod;
+  margin-bottom: 15px;
+}
+footer .footer-content .left-part p {
+  font-size: 0.9rem;
+  color: grey;
+}
+footer .footer-content .right-part {
+  padding-left: 50px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+footer .footer-content .right-part h3 {
+  font-size: 0.85rem;
+}
+footer .footer-content .right-part input {
+  margin-top: 15px;
+  background: none;
+  border: 1px solid rgba(166, 114, 69, 0.151);
+  padding: 7px 13px;
+  width: 250px;
+  outline: none;
+  color: white;
+}
+footer .footer-content .right-part .follow-us {
+  display: flex;
+  margin-top: 50px;
+}
+footer .footer-content .right-part .follow-us ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  color: rgb(150, 125, 125);
+  width: 200px;
+  cursor: pointer;
+}
+footer .footer-content .right-part .follow-us ul i {
+  transition: 0.2s;
+}
+footer .footer-content .right-part .follow-us ul i:hover {
+  transform: scale(1.8);
 }/*# sourceMappingURL=index.css.map */
