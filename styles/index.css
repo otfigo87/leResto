@@ -61,6 +61,12 @@ header nav ul {
 }
 header nav ul li {
   cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+header nav ul li:hover {
+  color: rgb(144, 76, 76);
+  font-weight: 800;
+  transform: scale(1.1);
 }
 header nav .nav-icons {
   display: flex;

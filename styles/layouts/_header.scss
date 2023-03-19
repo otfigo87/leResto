@@ -29,6 +29,12 @@ header {
         
         li {
             cursor: pointer;
+            transition: all 0.5s ease-in;
+        }
+        li:hover {
+            color: rgb(144, 76, 76);
+            font-weight: 800;
+            transform: scale(1.1)
         }
     }
     .nav-icons {
